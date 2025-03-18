@@ -1,0 +1,26 @@
+    <!doctype html>
+    <html>
+    <head>
+    <title>HTML Page</title>
+    <link href="/static/images/240px-PyCharm_Icon.svg.png" rel="icon">
+    <meta name="description" content="Our first page">
+    <meta name="keywords" content="html simple template">
+    </head>
+    <body>
+    Hello, World!!!
+<img src="/static/images/1024px-PyCharm_Icon.svg.png" width="300px"/> <br/>
+<form method="post">
+        {% csrf_token %}
+        <input type="text" name="username" placeholder="name" />
+    <br>
+        <input type="email" name="email" placeholder="email@ia.eu" />
+    <br>
+    <textarea name="message"> </textarea>
+    <br>
+        <input type="submit" value="Отправить" />
+</form>
+    </body>
+    </html>
+
+
+
